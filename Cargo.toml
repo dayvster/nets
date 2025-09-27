@@ -1,0 +1,21 @@
+
+[package]
+name = "nets"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+tokio = { version = "1.37", features = ["full"] }
+procfs = "0.15"
+pnet = "0.35"
+ratatui = "0.25"
+crossterm = "0.27"
+get_if_addrs = "0.5"
+macaddr = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+dns-lookup = "3.0.0"

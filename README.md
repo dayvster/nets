@@ -1,4 +1,4 @@
-# nets
+# nets 🚦
 
 <p align="center">
   <a href="https://crates.io/crates/nets"><img alt="crates.io" src="https://img.shields.io/crates/v/nets?style=flat-square" /></a>
@@ -6,7 +6,7 @@
   <img alt="Rust Version" src="https://img.shields.io/badge/rust-2021%2B-orange?style=flat-square&logo=rust" />
 </p>
 
-<h3 align="center">A blazing-fast, interactive network dashboard for your terminal.</h3>
+<h3 align="center">A fast, interactive network dashboard for your terminal. 🚀</h3>
 
 ---
 
@@ -14,25 +14,23 @@ nets is a cross-platform, real-time network dashboard for the terminal, inspired
 
 ---
 
-## Features
+## Features ✨
 
-> Everything you need to monitor your network, right from your terminal:
-
-- **Live Port & Process Table:** See all listening ports and the owning processes, with protocol, local/remote addresses, and filtering.
-- **LAN Device Discovery:** Scan your local network for devices, including hostnames and MAC addresses.
-- **Interactive TUI:** Navigate with keyboard, scroll, filter, and switch focus between tables.
-- **Ping Modal:** Press `p` to open a modal and ping any host, with animated feedback.
-- **Header with Network Info:** Displays your IP, router IP, hostname, and stats.
-- **Colorful, Modern UI:** Uses ratatui for a beautiful, responsive terminal experience.
-- **Cross-Platform:** Works on Linux, macOS, and Windows (with some feature limitations).
-- **Keyboard Shortcuts:** Fast navigation, filtering, paging, and modal actions.
-- **Animated Feedback:** Visual cues for pinging and modal actions.
-- **Process/Port Filtering:** Filter by process name, port, or protocol.
-- **LAN Hostname Lookup:** Reverse DNS for LAN devices.
-- **Paging & Scrolling:** View large tables with smooth navigation.
-- **Customizable Refresh Rate:** Choose how often data updates.
-- **Graceful Error Handling:** Robust against missing permissions or partial data.
-- **Extensible Architecture:** Modular codebase for easy feature addition.
+- **Live Port & Process Table:** See all listening ports and the owning processes, with protocol, local/remote addresses, and filtering. 🕵️
+- **LAN Device Discovery:** Scan your local network for devices, including hostnames and MAC addresses. 🌐
+- **Interactive TUI:** Navigate with keyboard, scroll, filter, and switch focus between tables. ⌨️
+- **Ping Modal:** Press `p` to open a modal and ping any host, with animated feedback. 🏓
+- **Header with Network Info:** Displays your IP, router IP, hostname, and stats. 🏠
+- **Colorful, Modern UI:** Uses ratatui for a beautiful, responsive terminal experience. 🎨
+- **Cross-Platform:** Works on Linux, macOS, and Windows (with some feature limitations). 🖥️
+- **Keyboard Shortcuts:** Fast navigation, filtering, paging, and modal actions. ⚡
+- **Animated Feedback:** Visual cues for pinging and modal actions. ✨
+- **Process/Port Filtering:** Filter by process name, port, or protocol. 🔍
+- **LAN Hostname Lookup:** Reverse DNS for LAN devices. 🔗
+- **Paging & Scrolling:** View large tables with smooth navigation. 📜
+- **Customizable Refresh Rate:** Choose how often data updates. ⏱️
+- **Graceful Error Handling:** Robust against missing permissions or partial data. 🛡️
+- **Extensible Architecture:** Modular codebase for easy feature addition. 🧩
 
 ### Potential/Future Features
 
@@ -44,6 +42,22 @@ nets is a cross-platform, real-time network dashboard for the terminal, inspired
 - Notifications for new devices/ports
 - Theme toggle (light/dark/high-contrast)
 - Block/allowlist for devices/ports
+
+## Install 🛠️
+
+You can install nets in two ways:
+
+### With Cargo (recommended)
+
+```sh
+cargo install nets
+```
+
+### From GitHub Releases
+
+1. Download the latest release for your platform from the [releases page](https://github.com/dayvster/nets/releases).
+2. Unpack the archive and move the `nets` binary to a directory in your `$PATH` (e.g., `/usr/local/bin`).
+3. Run `nets` from your terminal!
 
 ## Usage
 
@@ -74,7 +88,7 @@ $ cargo run --release -- --refresh 1
 
 ---
 
-*Try nets today and take control of your network visibility!*
+*Try nets today and take control of your network visibility! 🚦*
 
 ## Building
 

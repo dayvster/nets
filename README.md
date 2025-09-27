@@ -1,20 +1,22 @@
 # nets
 
 <p align="center">
-  <img alt="nets logo" src="https://img.shields.io/badge/terminal%20network%20dashboard-blue?style=flat-square&logo=gnu-bash" />
   <a href="https://crates.io/crates/nets"><img alt="crates.io" src="https://img.shields.io/crates/v/nets?style=flat-square" /></a>
   <a href="https://github.com/dayvster/nets/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" /></a>
   <img alt="Rust Version" src="https://img.shields.io/badge/rust-2021%2B-orange?style=flat-square&logo=rust" />
-  <a href="https://github.com/dayvster/nets/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/dayvster/nets?style=flat-square" /></a>
-  <a href="https://github.com/dayvster/nets/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/dayvster/nets?style=flat-square" /></a>
-  <a href="https://github.com/dayvster/nets/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/dayvster/nets?style=flat-square" /></a>
 </p>
+
+<h3 align="center">A blazing-fast, interactive network dashboard for your terminal.</h3>
 
 ---
 
 nets is a cross-platform, real-time network dashboard for the terminal, inspired by htop but focused on networking. It provides a live, interactive view of local listening ports, running processes, and devices on your LAN, with powerful filtering, paging, and network testing features—all in a modern TUI.
 
+---
+
 ## Features
+
+> Everything you need to monitor your network, right from your terminal:
 
 - **Live Port & Process Table:** See all listening ports and the owning processes, with protocol, local/remote addresses, and filtering.
 - **LAN Device Discovery:** Scan your local network for devices, including hostnames and MAC addresses.
@@ -63,6 +65,16 @@ cargo run --release -- [OPTIONS]
 - `Up/Down`   Scroll
 - `PageUp/PageDown`   Page scroll
 - `q`         Quit
+
+## Usage Example
+
+```sh
+$ cargo run --release -- --refresh 1
+```
+
+---
+
+*Try nets today and take control of your network visibility!*
 
 ## Building
 

@@ -1,3 +1,9 @@
+# ⚠️ This project is deprecated
+
+**This project is no longer maintained.**
+
+---
+
 # nets
 
 <p align="center">
